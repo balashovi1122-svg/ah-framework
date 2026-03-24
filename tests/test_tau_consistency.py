@@ -1,6 +1,6 @@
 import numpy as np
 import sys, os
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), \'..\', \'src\'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
 from ah_core import compute_tau, compute_ah
 
 def test_broadband_vs_narrow():
