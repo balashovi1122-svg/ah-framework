@@ -72,4 +72,4 @@ def compute_ah(
     """Ah = (R·P·T·F)^(1/4). Any parameter=0 kills Ah."""
     if min(R, P, T, F) < 0:
         raise ValueError("All parameters must be non-negative.")
-    return float((R * P * T * F) ** 0.25
+    return float((R * P * T * F) ** 0.25)
